@@ -227,9 +227,25 @@ h6 {
   border: none;
   border-radius: 10px;
   padding: 25px;
-  font-size: 30px;
+  font-size: 25px;
   cursor: pointer;
   flex-shrink: 1;
-  background: #fa65ff;
+  background: #6596ff;
   color: #fdedfd;
+}
+
+@media (max-width: 800px) {
+  .game-state-content p {
+    font-size: 23px;
+  }
+
+  .game-state > div {
+    width: 90%;
+    text-align: center;
+    padding: 0 40px;
+    border-radius: 10px;
+    z-index: 1;
+    color: #fff;
+    font-size: 60px;
+  }
 }
